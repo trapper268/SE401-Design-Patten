@@ -1,4 +1,4 @@
-package FactoryMethod;
+package Creational.FactoryMethod;
 
 interface Food {
     void prepare();

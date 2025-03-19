@@ -1,4 +1,4 @@
-package Adapter;
+package Structural.Adapter;
 
 interface Course {
     void start();

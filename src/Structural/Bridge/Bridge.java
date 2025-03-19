@@ -1,4 +1,4 @@
-package Bridge;
+package Structural.Bridge;
 
 interface IrrigationSystem {
     void waterPlants();
