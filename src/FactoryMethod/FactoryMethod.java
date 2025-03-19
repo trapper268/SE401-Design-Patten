@@ -42,11 +42,34 @@ class Pasta implements Food {
     }
 }
 
+interface FoodCreator {
+    Food createFood();
+}
+
+class PizzaCreator implements FoodCreator {
+    public Food createFood() {
+        return new Pizza();
+    }
+}
+
+class BurgerCreator implements FoodCreator {
+    public Food createFood() {
+        return new Burger();
+    }
+}
+
+class PastaCreator implements FoodCreator {
+    public Food createFood() {
+        return new Pasta();
+    }
+}
+
 public class FactoryMethod {
     public static void main(String[] args) {
-        Food pasta = new Pasta();
-        pasta.prepare();
-        pasta.cook();
-        pasta.serve();
+        FoodCreator f = new PizzaCreator();
+        Food p = f.createFood();
+        p.prepare();
+        p.cook();
+        p.serve();
     }
 }
