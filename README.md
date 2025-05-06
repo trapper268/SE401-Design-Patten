@@ -1,6 +1,6 @@
 # 🏛️ SE401 Design Patterns
 
-This repository contains implementations of the 23 design patterns covered in the SE401 Design Pattern course which were introduced by GoF. Each pattern is implemented in Java with clear structure and documentation.
+This repository contains implementations of the 23 design patterns introduced by GoF in the SE401 Design Pattern course. Each pattern is implemented in Java with a clear structure and documentation.
 
 ## 📑 Table of Contents
 - [📖 Introduction](#introduction)
@@ -33,8 +33,7 @@ SE401-Design-Pattern/
 │   │
 │   ├── 🎭 behavioral/        # Behavioral Design Patterns
 │   │   ├── 🔗 chain-of-responsibility/
-│   │   ├── 🎮 command/
-│   │   ├── 🈸 interpreter/
+│   │   ├── 🎮 command
 │   │   ├── 🔄 iterator/
 │   │   ├── 🗣️ mediator/
 │   │   ├── 📜 memento/
